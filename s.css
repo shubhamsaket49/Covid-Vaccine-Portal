@@ -1,0 +1,156 @@
+body {
+  background-color: black;
+ height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+font-family: 'Fredoka One', cursive;
+  position: absolute;
+  top: 0%; left: 0%;
+  animation: color 3s infinite linear;
+  text-shadow: 0 0 30px blue;
+  transition: all 0.2s;
+}
+
+ *
+        {
+            box-sizing: border-box;
+            margin: 0px;
+        }
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    border: 3px solid transparent;
+    transition: 0.4s ease;
+
+0}
+ul li a:hover{
+    
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+
+}
+    .active{
+    background-color: rgb(4, 131, 88);
+    color: rgb(255, 255, 255);
+
+}
+
+        main
+        {
+            width: 100%;
+            background-color: orange;
+  background-repeat: no-repeat;
+            min-height: 600px;
+        }
+
+        .main-1
+        {
+            width: 100%;
+            padding: 0px;
+        }
+
+        .searchBtn1,.BookNow
+        {
+            border: 5px solid black;
+            background-color: red;
+            border-radius: 15px;
+            padding: 10px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .BookNow
+        {
+            margin: 10px;
+            float: right;
+        }
+        
+        input[type="number"]
+        ,[type="text"]
+        {
+
+            width: 30%;
+            margin: 10px 0px;
+            padding: 5px;
+            border-radius: 15px;
+            border: black 3px solid;
+        }
+
+        input[type="date"]
+        {
+            margin: 10px 0px;
+            padding: 5px;
+            border-radius: 25px;
+            border:rgb(128, 0, 128, 0.75) 5px solid;
+            background-color:whitesmoke;
+        }
+
+        p
+        {
+            margin: 40px 10px 80px 0px;
+            text-align: center;
+            font-family: cursive;
+            font-size: large;
+        }
+
+        .cool
+        {
+            font-family: cursive;
+            font-size: large;
+        }
+
+        button:hover
+        {
+            background-color: rgba(14, 80, 60, 0.842);
+            cursor: pointer;
+        }
+        
+        .virtual
+        {
+            margin: 10px;
+        }
+
+        table
+        {
+            width: 100%;
+            text-align: center;
+            color:rgba(128, 0, 0, 0.74);
+            font-family: cursive;
+            margin: 10px; 
+        }
+
+        th
+        {
+            margin: 50px;
+            border: 5px solid blue;      
+        }
+	tr:nth-child(even){background-color:black;}
+        tr:nth-child(odd){background-color:white;}
+        
+        td
+        {
+            border: rgba(30, 41, 29, 0.849) 1px solid;
+            color: red;
+        }
+
+        img
+        {
+            width: 100%;
+            height: 300px;
+        }
+        s:hover
+        {
+       background-color: rgba(14, 80, 60, 0.842);
+         }
+
+        .byPin
+        {
+            padding: 50px;
+        }
+
